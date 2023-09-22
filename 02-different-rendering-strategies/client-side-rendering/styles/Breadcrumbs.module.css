@@ -6,6 +6,10 @@
   padding: 2rem;
 }
 
+.breadcrumbs a {
+  margin-left: 0.5rem;
+}
+
 .children {
   margin-right: 1rem;
   margin-left: 1rem;

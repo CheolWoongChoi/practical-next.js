@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import styles from '../styles/Breadcrumbs.module.css';
+import Link from "next/link";
+import styles from "../styles/Breadcrumbs.module.css";
 
 function BreadCrumbs() {
   return (
@@ -15,6 +15,12 @@ function BreadCrumbs() {
       </Link>
       <Link href="/dynamic-component">
         <div className={styles.children}>dynamic</div>
+      </Link>
+      <Link href="/server-side">
+        <div className={styles.children}>ssr</div>
+      </Link>
+      <Link href="/static-generation">
+        <div className={styles.children}>ssg</div>
       </Link>
     </div>
   );
